@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Minesweeper"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Downloads\;CMake Files\..\..\Downloads\school stuff\;CMake Files\..\..\Downloads\school stuff\SFML library\;CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\;CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\;CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\;CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Minesweeper">
+				<Option output="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Minesweeper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/15203/Downloads/school stuff/SFML library/SFML-2.5.1/include"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Minesweeper"/>
+					<CompileFile command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Minesweeper/fast">
+				<Option output="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Minesweeper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/15203/Downloads/school stuff/SFML library/SFML-2.5.1/include"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Minesweeper/fast"/>
+					<CompileFile command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/15203/CLionProjects/Minesweeper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/Board.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/Board.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/Random.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/Random.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/TextureMng.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/TextureMng.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/Tile.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/Tile.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/main.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/../../Downloads/school stuff/SFML library/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/../../Downloads/school stuff/SFML library/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/../../Downloads/school stuff/SFML library/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/../../Downloads/school stuff/SFML library/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/../../Downloads/school stuff/SFML library/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/15203/CLionProjects/Minesweeper/../../Downloads/school stuff/SFML library/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\school stuff\SFML library\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
